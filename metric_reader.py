@@ -85,8 +85,6 @@ def parse_args(args=sys.argv[1:]):
                    action="store_true",
                    default=False,
                    help="don't log")
-    # FIXME: modify these options
-    g = parser.add_argument_group("fizzbuzz settings")
     g.add_argument('-c', '--config',
                    dest="configfile",
                    required=False,
